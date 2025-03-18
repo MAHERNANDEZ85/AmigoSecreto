@@ -1,10 +1,5 @@
 Challenge-Amigo-Secreto
-Explicacion de las funciones añadidas al programa
-function agregarAmigo()
-Con esta funcion almacenamos los nombres de los participantes del sorteo a realizar. Si no se ingresa un nombre se emitira una alerta de que si o si debe ingresar el nombre de alguno de los participantes.
-function enlistarAmigos()
-Con esta funcion creamos una "lista" que nos permite ver a quienes ya ingresamos en el sorteo.
-function sortearAmigo()
-Con esta funcion realizamos el sorteo, condicioando de que hayan como minimo 3 participantes, de lo contrario se emitira una alerta de que no hay suficientes integrantes para realizar el sorteo.
-function reiniciarJuego()
-Con esta funcion podemos resetear el sorteo haciendo que todos los nombres ingresados se eliminen y asi poder volver a empezar.
+El juego te permite agregar una serie amigos, el sistema los graba y los muestra en la pantalla.
+Una vez finalizado puedes dar click al boton sortear amigo y el juego seleccionara una amigo por ti.
+Adicionalmente si no agregas nada en el campo escribe un nombre, una alerta te indicara que llenes ese espacio.
+otra funcion agregada, no te permite jugar al menos que agregues tres personas en la lista. De no hacerlo, el sistema te indica que no hay suficientes amigos para hacer el sorteo.
